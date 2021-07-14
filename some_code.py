@@ -53,3 +53,6 @@ class SomeClass:
         from datetime import datetime
         date_and_time = datetime.now()
         return
+
+if __name__ == '__main__':
+    some_function_with_hints(123)
