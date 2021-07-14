@@ -40,6 +40,9 @@ def is_sum_lucky(x, y):
 
             return ('just a normal number')
 
+def some_function_with_hints(var: str):
+    print(f'Number: {int(var)}')
+
 class SomeClass:
 
     def __init__(self, some_arg,  some_other_arg, verbose = False):
